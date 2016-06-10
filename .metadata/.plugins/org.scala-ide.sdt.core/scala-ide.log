@@ -1999,3 +1999,34 @@ when weaving
 2016-06-07 23:38:20,269 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:86)
 2016-06-07 23:38:20,269 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
 2016-06-07 23:38:20,273 ERROR [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - System.err - at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+2016-06-09 19:42:30,012 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-06-09 19:42:30,109 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchesListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-06-09 19:42:36,651 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.TestRunnerViewPart
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-06-09 19:42:37,819 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-06-09 19:42:37,897 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2016-06-09 19:42:41,196  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for 02funsets, setting default to 2.11.
+2016-06-09 19:42:41,212  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.installation was uninitialized for 02funsets, setting default to 2.11.
+2016-06-09 19:42:42,593  WARN [Worker-8] - ScalaProject - Project LecturePractice has platform default sourceLevel.
+2016-06-09 19:42:42,597  WARN [Worker-8] - ScalaProject - Project LecturePractice runs on platform default installation.
+2016-06-09 19:43:02,039  WARN [Java indexing] - ScalaProject - Project LecturePractice has platform default sourceLevel.
+2016-06-09 19:43:02,041  WARN [Java indexing] - ScalaProject - Project LecturePractice runs on platform default installation.
