@@ -1,0 +1,3 @@
+object Ch0102 {
+  println("Welcome to the Scala worksheet")
+}

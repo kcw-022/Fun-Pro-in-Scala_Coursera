@@ -1,0 +1,24 @@
+package weektwo
+
+object weektwo {
+  println("Welcome to the Scala worksheet")
+  
+  def product(f: Int => Int)(a:Int, b:Int): Int =
+  	if (a>b)  1
+  	else f (a) * product (f)(a+1,b)
+  	
+  	product(x=>x * x) (2,3)
+  	
+  	def fact(n: Int) = product(x => x)(1, n)
+  	
+  	fact(4)
+  	fact(3)
+  	fact(5)
+  
+  
+  def increment(g: (Int,Int) => Int, base: Int)(f:Int => Int)(a:Int, b: Int): Int =
+  if (a > b) base
+  else g(f(a), increment(g, base)(f)(a+1,b))
+  
+  increment(*, 1)(x=>x)(0,3)
+}

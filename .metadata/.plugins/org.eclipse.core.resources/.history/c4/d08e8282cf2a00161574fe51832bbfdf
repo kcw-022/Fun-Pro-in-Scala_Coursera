@@ -1,0 +1,16 @@
+package weektwo
+
+object CH0205 {
+  println("Welcome to the Scala worksheet")
+  
+  val d = new Rational (1,2)
+  d.den
+}
+
+
+class Rational(x: Int, y: Int) {
+	def num = x
+	def den = y
+	
+	override def toString = num + "/" + den
+}
